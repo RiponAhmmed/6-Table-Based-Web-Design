@@ -1,0 +1,63 @@
+.my_nav{
+   padding: 0;
+   margin: 0;
+   list-style: none;
+}
+.my_nav li{}
+.my_nav li a {
+   text-decoration: none;
+   display: block;
+   background: #666;
+   color: #ddd;
+   margin-bottom: 1px;
+   padding: 5px;
+}
+
+.my_nav li a:hover{
+   background: #444;
+}
+
+.main_nave{
+   padding: 0;
+   margin: 0;
+   list-style: none;
+}
+.main_nave li{
+   float: left;
+}
+.main_nave li a {
+   text-decoration: none;
+   background: #333;
+   padding: 5px;
+   margin-right: 2px;
+   color: #fff;
+}
+.main_nave li a:hover{
+   background: #ddd;
+   color: #000;
+}
+
+table.my_table{
+   margin:20px 10px 10px 50px;
+   width: 900px;
+}
+
+table.my_table tr th{
+   text-align: center;
+   background: #444;
+   color: #fff;
+   padding: 5px;
+}
+table.my_table tr td{
+   text-align: center;
+}
+
+table.my_table tr:nth-child(2n+1){
+   background: #aaa9a9;
+   height: 30px;
+}
+
+table.my_table tr:nth-child(2n){
+   background: #f2ecec;
+   height: 30px;
+}
